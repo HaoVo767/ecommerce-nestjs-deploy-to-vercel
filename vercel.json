@@ -4,12 +4,6 @@
       "maxDuration": 10
     }
   },
-  "builds": [
-    {
-      "src": "dist/api",
-      "use": "@vercel/node"
-    }
-  ],
   "rewrites": [
     {
       "source": "/(.*)",
